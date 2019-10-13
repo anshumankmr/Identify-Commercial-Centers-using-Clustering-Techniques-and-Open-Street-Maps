@@ -60,6 +60,8 @@ More on queries can be found (here.)[https://wiki.openstreetmap.org/wiki/Overpas
 
 
 #### Further Reading
-(Overpy, a Python Wrapper for the Overpass API)[https://python-overpy.readthedocs.io/en/latest/introduction.html]
-[Haversine Distance](https://community.esri.com/groups/coordinate-reference-systems/blog/2017/10/05/haversine-formula#targetText=For%20example%2C%20haversine(%CE%B8),longitude%20of%20the%20two%20points.)
+[Overpy, a Python Wrapper for the Overpass API](https://python-overpy.readthedocs.io/en/latest/introduction.html)
+
+[Haversine Distance](https://community.esri.com/groups/coordinate-reference-systems/blog/2017/10/05/haversine-formula#targetText=For%20example%2C%20haversine(%CE%B8,longitude%20of%20the%20two%20points.)
+
 Another potential approach is highlighted (here)[https://gis.stackexchange.com/questions/11567/spatial-clustering-with-postgis] and (here.)[https://gis.stackexchange.com/questions/270269/using-st-clusterdbscan-on-results-of-st-clusterkmeans-for-nested-clustering-with]
