@@ -44,7 +44,7 @@ nwr["amenity"](27.0,76.2419,28.6514,77.2519);
 out;
 ```
 nwr checks for nodes, ways or relations that lie within the bounding box specified by the bounding box. I chose the presence of shops and amenities as a metric for detecting if a place was an important commercial center. An important commercial centre,say like a mall, should have a large number of nodes per unit area
-To detect  whether a given area is a commercial centre is a clustering problem and based on (this,)[https://triphappy.com/blog/finding-the-best-places-to-stay-anywhere/15]
+To detect  whether a given area is a commercial centre is a clustering problem and based on [this,](https://triphappy.com/blog/finding-the-best-places-to-stay-anywhere/15)
 DBSCAN is the best suited one for the purpose.
 DBSCAN is a density based clustering algorithm that divides a dataset into subgroups of high density regions. There are two parameters required for DBSCAN: epsilon (ε) and minimum amount of points required to form a cluster (minPts).
 
@@ -62,6 +62,6 @@ More on queries can be found (here.)[https://wiki.openstreetmap.org/wiki/Overpas
 #### Further Reading
 [Overpy, a Python Wrapper for the Overpass API](https://python-overpy.readthedocs.io/en/latest/introduction.html)
 
-[Haversine Distance](https://community.esri.com/groups/coordinate-reference-systems/blog/2017/10/05/haversine-formula#targetText=For%20example%2C%20haversine(%CE%B8,longitude%20of%20the%20two%20points.)
+[Haversine Distance](https://community.esri.com/groups/coordinate-reference-systems/blog/2017/10/05/haversine-formula#targetText=For%20example%2C%20haversine%CE%B8,longitude%20of%20the%20two%20points.)
 
 Another potential approach is highlighted [here](https://gis.stackexchange.com/questions/11567/spatial-clustering-with-postgis) and [here.](https://gis.stackexchange.com/questions/270269/using-st-clusterdbscan-on-results-of-st-clusterkmeans-for-nested-clustering-with)
